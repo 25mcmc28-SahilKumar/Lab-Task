@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book filter</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header><h1>Book Filter</h1></header>
+    <div class="filter">
+        <select id="genreFilter" class="input">
+        <option value="all">All Genre</option>
+    </select>
+    <select id="authorFilter" class="input">
+        <option value="all">All Author</option>
+    </select>
+    
+    <input type="number" id="minPrice" class="input"  placeholder="min price">
+    <input type="number" id="maxPrice" class="input" placeholder="max price">
+
+    <button id="applyFilter" class="input">Apply Filter</button>
+    </div>
+    <div class="container">
+         
+    <div id="tableContainer"></div>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

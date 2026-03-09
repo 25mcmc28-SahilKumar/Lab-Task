@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 5</title>
+</head>
+<body>
+
+<h2>To-Do List</h2>
+
+<input type="text" id="taskInput" placeholder="Enter task">
+<input type="date" id="dueDate">
+
+<button onclick="addTask()">
+Add
+</button>
+<br><br>
+<button onclick="filterTasks('all')">All</button>
+<button onclick="filterTasks('completed')">Done</button>
+<button onclick="filterTasks('pending')">Pending</button>
+
+<ul id="taskList"></ul>
+
+<script src="task5.js"></script>
+</body>
+</html>

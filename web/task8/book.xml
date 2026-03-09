@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<catalog>
+<book id="1">
+<title>Green Door on the Wall</title>
+<author>Willian G.</author>
+<genre>Fiction</genre>
+<price>300</price>
+<publish_date>1960-08-01</publish_date>
+</book>
+
+<book id="2">
+<title>Green Royal Horse</title>
+<author>Houres</author>
+<genre>Fiction</genre>
+<price>200</price>
+<publish_date>2026-01-24</publish_date>
+</book>
+
+<book id="3">
+<title>The Hounted House</title>
+<author>Sahil Kumar</author>
+<genre>Horror</genre>
+<price>299</price>
+<publish_date>1999-01-02</publish_date>
+</book>
+
+<book id="4">
+<title>The cute little bird </title>
+<author>Ram Prasad</author>
+<genre>Biogarphy</genre>
+<price>460</price>
+<publish_date>1939-11-24</publish_date>
+</book>
+
+<book id="5">
+<title>Don't shut up</title>
+<author>Prakhar Gupta</author>
+<genre>Fiction</genre>
+<price>220</price>
+<publish_date>2022-02-21</publish_date>
+</book>
+
+</catalog>
