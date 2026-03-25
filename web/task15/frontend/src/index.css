@@ -1,0 +1,29 @@
+body {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-family: "Courier New", monospace;
+  margin: 0;
+  padding: 20px;
+}
+
+input{
+  border: 2px solid black;
+  padding: 8px;
+  margin: 5px;
+  outline: none;
+}
+
+button{
+  border: 2px solid black;
+  background: white;
+  color: black;
+  padding: 8px 12px;
+  cursor: pointer;
+  box-shadow: 4px 4px 0px black;
+  transition: 0.2s;
+}
+
+button:hover{
+  box-shadow: none;
+  transform: translate(4px, 4px);
+}
